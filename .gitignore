@@ -38,3 +38,6 @@ terraform.rc
 
 # Ignore node_modules
 node_modules
+
+# Don't accidentally commit zipped lambdas
+*.zip
